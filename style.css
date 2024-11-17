@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: sans-serif;
+}
+
+.page1{
+    width: 100vw;
+    height: 100vh;
+}
+
+.nav1{
+    width: 100vw;
+    background-color: #292929;
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 10px;
+    padding-left: 45vw;
+}
+
+.nav2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-left: 100px;
+    padding-right: 100px;
+    cursor: pointer;
+}
+
+.nav2 .left , .right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 500;
+    gap: 50px;
+    color: rgb(41, 41, 41);
+}
+
+.nav2 .left > h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 370px;
+}
+
+.content{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(2024-09-17_Fall_Launch-HP_Desktop.jpg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 167px;
+    color: rgb(232, 230, 230);
+}
+
+.content > h1{
+    font-size: 40px;
+    display: flex;
+    font-weight: 600;
+    font-family: serif;
+}
+
+.content > h3{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.content > h4{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.content u{
+    margin-left: 20px;
+}
